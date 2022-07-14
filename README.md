@@ -1,5 +1,6 @@
 # Gatsby Static Template
 [Live demo](https://gatsbystatictemplatemain.gtsb.io/)
+
 This is a starter template for static Gatsby sites designed to get you quickly up and running with a simple and easy to maintain site architecture and layout system.
 
 It is intended to be unopinionated and flexible in terms of its out-of-box styling so as not to suggest how any site you build with it ought to look.
