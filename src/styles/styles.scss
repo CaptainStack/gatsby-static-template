@@ -26,6 +26,10 @@ h1, h2, h3, a {
   text-decoration: none;
 }
 
+h1 {
+  background-color: yellow;
+}
+
 a:hover {
   text-decoration: none;
   color: rgb(68, 63, 63);
@@ -33,22 +37,17 @@ a:hover {
 
 .button {
   padding: 1rem 1.5rem 1rem 1.5rem;
-  margin: 1rem;
-  margin-left: 0;
-  border-radius:10px;
-  background-image: none;
-  background-color: $primary;
-  text-decoration: none;
+  background-color: #4f7177;
+  border-radius: 5px;
   color: white;
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.button:hover {
-  cursor: pointer;
-  color: white;
-  filter: brightness(85%);
-  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px darkgrey;
+  transition: transform 0.5s;
+  &:hover {
+    color: white;
+    text-decoration: underline;
+    transform: scale(0.95);
+  }
 }
 
 .button:active {
@@ -73,7 +72,7 @@ main {
   & > {
     img, a img {
       width: 100%;
-      margin: 25px 0 25px 0;
+      margin: 0 0 25px 0;
     }
     p, ul {
       line-height: 1.6;
@@ -116,6 +115,7 @@ aside {
 
 .active {
   color: $accent;
+  background-color: yellow;
 }
 
 footer {
@@ -208,4 +208,8 @@ form {
       opacity: .8;
     }
   }
+}
+
+.homepage-hero {
+  margin: 0;
 }

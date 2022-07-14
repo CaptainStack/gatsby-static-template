@@ -1,5 +1,5 @@
 @import './constants.scss';
-$headerHeight: 98px;
+$headerHeight: 120px;
 
 header {
   background-color: $lightprimary;
@@ -21,6 +21,23 @@ header {
     width: auto;
     &:hover {
       color: $accent;
+      // background-color: yellow;
+      border-bottom: 1px solid darkgrey;
+    }
+  }
+
+  .cta {
+    background-color: #4f7177;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px darkgrey;
+    transition: transform 0.5s;
+    &:hover {
+      color: white;
+      text-decoration: underline;
+      transform: scale(0.95);
     }
   }
 
@@ -30,6 +47,11 @@ header {
     background-size: $headerHeight - 10;
     height: $headerHeight - 10;
     width: $headerHeight - 10;
+    transition: transform 0.5s;
+    &:hover {
+      border-bottom: none;
+      transform: scale(0.95);
+    }
   }
 
   .container {
@@ -38,8 +60,10 @@ header {
   }
 
   .active {
-    text-decoration: underline;
+    // text-decoration: underline;
+    border-bottom: 1px solid darkgrey;
     text-underline-offset: 8px;
+    background-color: yellow;
   }
   nav {
     display: flex;
