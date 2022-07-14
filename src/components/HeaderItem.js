@@ -7,7 +7,7 @@ const HeaderItem = ({link, activeLink}) =>
       // Using a ternary operator, if the header link is to an external site, then use a traditional anchor tag and open in a new page.
       // Otherwise, if the header link is an internal link use a Gatsby Link (for performance) and open in the current tab.
       (link.url.includes('http') || link.url.includes('https')) ? 
-        <a key={link.url} href={link.url} className={activeLink === link.text ? 'active' : "inactive"} target='_blank' rel='noreferrer noopener'>
+        <a key={link.url} href={link.url} className={activeLink === link.text ? 'active cta' : "inactive cta"} target='_blank' rel='noreferrer noopener'>
           {link.text}
         </a>
         : 

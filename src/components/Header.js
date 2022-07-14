@@ -2,15 +2,12 @@ import * as React from "react"
 import { Link } from 'gatsby'
 import { HeaderLinks } from '../helpers/constants'
 import HeaderItem from '../components/HeaderItem'
-// import SiteLogo from "../images/icon.png"
 import '../styles/header.scss'
 
 const Header = ({activeLink}) =>
   <header>
     <div className='container'>
-      <Link id='HeaderLogo' to="/">
-        {/* <img src={SiteLogo} alt="Site logo" /> */}
-      </Link>
+      <Link id='HeaderLogo' to="/"></Link>
       <label>
         <input type='checkbox' />
         <nav> 
