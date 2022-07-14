@@ -3,7 +3,7 @@ This is a starter template for static Gatsby sites designed to get you quickly u
 
 It is intended to be unopinionated and flexible in terms of its out-of-box styling so as not to suggest how any site you build with it ought to look.
 
-![Homepage screenshot](/images/screenshot.png "Template screenshot")
+![Homepage screenshot](https://github.com/CaptainStack/gatsby-static-template/blob/main/src/images/screenshot.png "Template screenshot")
 
 # Pages
 Every page in your website should be put in the /pages directory. We recommend having your file-structure as closely as possible match your website's sitemap.
