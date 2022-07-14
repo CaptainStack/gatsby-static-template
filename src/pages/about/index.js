@@ -1,7 +1,7 @@
 import * as React from "react"
-import Layout from '../components/Layout'
-import { AboutSidebarLinks } from '../helpers/constants'
-import '../styles/styles.scss'
+import Layout from '../../components/Layout'
+import { AboutSidebarLinks } from '../../helpers/constants'
+import '../../styles/styles.scss'
 
 const AboutPage = (activeHeaderLink) =>
   <div className='Layout'>

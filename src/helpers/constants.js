@@ -8,18 +8,6 @@ export const HeaderLinks = [
     url: "/about",
     sublinks: [
       {
-        text: "People",
-        url: "/about/people",
-      },
-      {
-        text: "Funding",
-        url: "/about/funding",
-      },
-      {
-        text: "Press",
-        url: "/about/press",
-      },
-      {
         text: "Contact",
         url: "/about/contact",
       },
@@ -39,18 +27,6 @@ export const AboutSidebarLinks = [
   {
     text: "About",
     url: "/about",
-  },
-  {
-    text: "People",
-    url: "/about/people",
-  },
-  {
-    text: "Funding",
-    url: "/about/funding",
-  },
-  {
-    text: "Press",
-    url: "/about/press",
   },
   {
     text: "Contact",
