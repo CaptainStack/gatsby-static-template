@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import '../../styles/styles.scss'
 
-const AboutPage = (activeHeaderLink) =>
+const AboutPage = () =>
   <div className='Layout'>
     <Layout pageTitle="About" siteTitle='Website' sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>

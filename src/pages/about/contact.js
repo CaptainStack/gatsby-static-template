@@ -3,9 +3,9 @@ import Layout from '../../components/Layout'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import '../../styles/styles.scss'
 
-const ContactPage = (activeHeaderLink) =>
+const ContactPage = () =>
   <div className='Layout'>
-    <Layout pageTitle="About" siteTitle='Website' sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
+    <Layout siteTitle='Website' pageTitle="Contact" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
     <main>
       <title>Contact</title>
       <h1>Contact</h1>
