@@ -33,3 +33,6 @@ Optionally rendered on the left side of Layout. Not displayed on mobile. Link in
 
 # Site metadata
 Site metadata such as the thumbnail image and description are managed by ReactHelmet and inserted into the site from the ```<Head>``` component (which resides in ```<Layout>```).
+
+# Theming
+Site theming is done through the `.scss` files in /styles. Sitewide styles like theme colors are best stored in constants.scss while most other styles are in styles.scss. If styles starts.scss getting long or overly complicated then component styles can be refactored into their own .scss file, as seen with header.scss.
