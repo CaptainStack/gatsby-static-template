@@ -16,9 +16,9 @@ These components define the basic layout system of this template.
 ## Layout
 Every page should be wrapped inside of a layout. This template only provides one out of the box, so it's called Layout. As you develop more pages with different purposes you may develop alternative layouts.
 
-The included Layout works by insterting page content into <main> between Header and Footer components. It also includes an optional sidebar. Information for the header and sidebar must be passed in from the page and are imported from /helpers/constants.js.
+The included Layout works by insterting page content into ```<main>``` between Header and Footer components. It also includes an optional sidebar. Information for the header and sidebar must be passed in from the page and are imported from /helpers/constants.js.
 
-Also inserts site metadata by including the <Head> component.
+Also inserts site metadata by including the ```<Head>``` component.
 
 ## Header
 Rendered at the top of Layout. Contains site logo and header links defined in /helpers/constants.js. Can display nested links if sublinks are included.
@@ -30,4 +30,4 @@ Rendered at the bottom of Layout. Contains site logo and social media links. The
 Optionally rendered on the left side of Layout. Not displayed on mobile. Link information is stored in /helpers/constants.js and are passed in by the page that is rendering it.
 
 # Site metadata
-Site metadata such as the thumbnail image and description are managed by ReactHelmet and inserted into the site from the <Head> component (which resides in <Layout>).
+Site metadata such as the thumbnail image and description are managed by ReactHelmet and inserted into the site from the ```<Head>``` component (which resides in ```<Layout>```).
