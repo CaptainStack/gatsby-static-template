@@ -1,8 +1,8 @@
 import * as React from "react"
 import { Helmet } from 'react-helmet'
-import { Screenshot } from '../images/screenshot.png'
+import Screenshot from '../images/screenshot.png'
 
-const Head = ({pageTitle, siteTitle}) =>
+const Head = ({pageTitle = 'Page', siteTitle = 'Website'}) =>
   <Helmet>
     <html lang="en" />
     <title>{pageTitle} | {siteTitle}</title>
