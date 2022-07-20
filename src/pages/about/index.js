@@ -3,29 +3,33 @@ import Layout from '../../components/Layout'
 import InfoCard from '../../components/InfoCard'
 import { AboutSidebarLinks } from '../../helpers/constants'
 import '../../styles/styles.scss'
+import Icon from '../../images/icon.png'
 
 const AboutPage = () =>
   <div className='Layout'>
-    <Layout pageTitle="About" siteTitle='Website' sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
-    <main>
+    <Layout pageTitle="About" sidebarLinks={AboutSidebarLinks} activeHeaderLink="About">
       <title>About Page</title>
       <h1>About heading</h1>
+      <div className='row'>
       <InfoCard
         title="Info Card 1"
-        description='Description of Info Card 1'
-        link=''
+        description='Description of InfoCard 1'
+        image={Icon}
+        link='/'
       />
       <InfoCard
         title="Info Card 2"
-        description='Description of Info Card 2'
-        link=''
+        description='Description of InfoCard 2'
+        image={Icon}
+        link='/'
       />
       <InfoCard
         title="Infocard 3"
-        description='Description of Info Card 3'
-        link=''
+        description='Description of InfoCard 3'
+        image={Icon}
+        link='/'
       />
-    </main>
+      </div>
     </Layout>
   </div>
 export default AboutPage
