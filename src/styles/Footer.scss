@@ -1,0 +1,26 @@
+@import './constants.scss';
+
+footer {
+  text-align: center;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $darkprimary;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    div a {
+      margin: 10px;
+      color: lightgray;
+    }
+  }
+  img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 20px;
+  }
+}
