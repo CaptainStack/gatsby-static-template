@@ -19,7 +19,7 @@ export const HeaderLinks = [
   },
   {
     text: "Blog",
-    url: "/",
+    url: "https://en.wikipedia.org/wiki/Blog",
   },
 ];
 

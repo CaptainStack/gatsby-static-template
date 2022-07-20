@@ -1,4 +1,5 @@
 import * as React from "react"
+import '../styles/Footer.scss'
 import Logo from "../images/icon.png"
 
 const Footer = () =>

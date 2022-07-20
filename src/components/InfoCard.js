@@ -1,4 +1,5 @@
 import * as React from "react"
+import '../styles/InfoCard.scss'
 
 const InfoCard = ({title, link, image, description}) =>
   link ? 

@@ -2,11 +2,10 @@ import * as React from "react"
 import Layout from '../components/Layout'
 import '../styles/styles.scss'
 
-const IndexPage = ({activeHeaderLink}) =>
-  <Layout pageTitle="Home" siteTitle='Website' activeHeaderLink="Home">
-    <main>
-      <title>Home Page</title>
+const IndexPage = () =>
+  <Layout pageTitle="Home" activeHeaderLink="Home">
       <h1>Website heading</h1>
-    </main>
+      <p>Here is your homepage. Use it wisely.</p>
+      <a class='button' href='https://github.com/CaptainStack/gatsby-static-template'>Press me</a>
   </Layout>
 export default IndexPage
