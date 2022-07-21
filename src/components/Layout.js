@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 import Footer from '../components/Footer'
 import '../styles/styles.scss'
 
-const Layout = ({pageTitle, siteTitle, children, sidebarLinks, activeHeaderLink}) => 
+const Layout = ({pageTitle, siteTitle = 'Website', children, sidebarLinks, activeHeaderLink}) => 
   <div className='Layout'>
     <Head pageTitle={pageTitle} siteTitle={siteTitle}/>
     <Header activeLink={activeHeaderLink}/>
@@ -17,7 +17,7 @@ const Layout = ({pageTitle, siteTitle, children, sidebarLinks, activeHeaderLink}
         </main>
       </div>
     </div>
-    <Footer />
+    <Footer/>
   </div>
 
 export default Layout

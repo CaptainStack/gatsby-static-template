@@ -37,3 +37,18 @@ export const AboutSidebarLinks = [
     url: "/about/faq",
   },
 ];
+
+export const FooterSocialLinks = [
+  {
+    text: "Twitter",
+    url: "/",
+  },
+  {
+    text: "Github",
+    url: "/",
+  },
+  {
+    text: "Email",
+    url: "/",
+  },
+];
