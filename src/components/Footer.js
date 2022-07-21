@@ -7,9 +7,9 @@ import {FooterSocialLinks} from '../helpers/constants'
 const Footer = ({organization='Organization'}) =>
   <footer>
     <div className='container'>
-      <div>
+      <div className='socialMediaLinks'>
       {
-        FooterSocialLinks.map(link => <a href={link.url}>{link.text}</a>)
+        FooterSocialLinks.map(link => <a href={link.url} title={link.title} target='_blank' rel='noreferrer'><img src={link.logo} alt={link.title}/></a>)
       }
       </div>
       <Link href='/' target='_blank' rel='noopener noreferrer'><img src={Logo} alt="Logo"/></Link>
