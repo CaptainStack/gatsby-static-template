@@ -23,7 +23,8 @@ footer {
     max-height: 150px;
     margin-top: 20px;
   }
-  .socialMediaLinks {
+  .socialMediaLinks.row {
+    align-items: center;
     img {
       max-height: 30px;
       max-width: 30px;
